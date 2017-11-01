@@ -134,7 +134,7 @@ header.masthead {
     margin-right: auto;
     margin-left: auto; }
     header.masthead .device-container .screen img {
-      border-radius: 3px; }
+      border-radius: 100px; }
   @media (min-width: 992px) {
     header.masthead {
       height: 100vh;
@@ -171,7 +171,7 @@ section.acteurs {
       font-size: 70px; } }
 
 section.spectacles .section-heading {
-  margin-bottom: 100px; }
+  margin-bottom: 20px; }
   section.spectacles .section-heading h2 {
     margin-top: 0; }
   section.spectacles .section-heading p {
