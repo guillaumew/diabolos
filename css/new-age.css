@@ -177,11 +177,6 @@ section.spectacles .section-heading {
   section.spectacles .section-heading p {
     margin-bottom: 0; }
 
-section.spectacles .device-container,
-section.spectacles .feature-item {
-  max-width: 325px;
-  margin: 0 auto; }
-
 section.spectacles .device-container {
   margin-bottom: 100px; }
   @media (min-width: 992px) {
@@ -189,16 +184,53 @@ section.spectacles .device-container {
       margin-bottom: 0; } }
 
 section.spectacles .feature-item {
-  padding-top: 50px;
-  padding-bottom: 50px;
-  text-align: center; }
+    text-align: center;
+    margin: 0;
+    background: white;
+    border-radius: 10px;
+    color: black;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
   section.spectacles .feature-item h3 {
-    font-size: 30px; }
-  section.spectacles .feature-item .display {
-    height: 150px;
-    background-size: cover!important;
-    background-position-y: center!important;
+    font-size: 20px;
+    font-weight: bold;
+    color: #DC258F;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    line-height: 25px;
+    height: 50px;
+  }
+
+  section.spectacles .feature-item .titre{
+    padding: 20px;
+  }   
+ section.spectacles .feature-item .affiche{
+  padding: 0;
+  position: relative;
+  overflow: hidden;
+  min-height: 100px;
  }
+ section.spectacles .feature-item .affiche img{
+  width: 100%;
+  position: absolute;
+  top: 50%; /* poussé de la moitié de hauteur du référent */
+  transform: translateY(-50%); /* tiré de la moitié de sa propre hauteur */
+  left:0;
+  min-height: 60px;
+ }
+ section.spectacles .feature-item .text-muted{
+  padding: 0;
+  margin: 0;
+  font-size: 16px;
+  white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+ }
+
   section.spectacles .feature-item .affiche-lips{
     background: url(../img/spectacles/lips.jpg);
   }
