@@ -23,6 +23,7 @@ a {
 }
 a:hover, a:focus {
 	color: #FC45AF;
+	text-decoration: none;
 }
 
 
@@ -188,27 +189,27 @@ section.acteurs {
 		font-size: 50px;
 		margin-top: 0;
 	}
-	section.acteurs .badges .badge-link {
-		display: block;
-		margin-bottom: 25px;
+	section.acteurs .acteurs_list{
+		text-align: center;
 	}
-		section.acteurs .badges .badge-link:last-child {
-			margin-bottom: 0;
-		}
-		section.acteurs .badges .badge-link img {
-			height: 60px;
-		}
-		@media (min-width: 768px) {
-			section.acteurs .badges .badge-link {
-				display: inline-block;
-				margin-bottom: 0;
-			}
-			}
-	@media (min-width: 768px) {
-		section.acteurs h2 {
-			font-size: 70px;
-		}
-		}
+	section.acteurs .acteur_item{
+		width:120px;
+		height: 120px;
+		display: inline-block;
+		margin: 10px;
+		overflow: hidden;
+		position: relative;
+	}
+	section.acteurs .acteur_item img{
+		width:100%;
+	}
+	section.acteurs .acteur_item .actor_name{
+		position: absolute;
+		background-color: rgba(0,0,0,0.5);
+		bottom: 0;
+		left:0;
+		width: 100%;
+	}
 
 section.spectacles .section-heading {
 	margin-bottom: 20px;
@@ -259,6 +260,8 @@ section.spectacles .feature-item {
 		position: relative;
 		overflow: hidden;
 		min-height: 100px;
+		background-color: #868e96;
+		border-radius: 5px;
 	}
 		section.spectacles .feature-item .affiche img{
 			width: 100%;
