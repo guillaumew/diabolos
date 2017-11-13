@@ -63,6 +63,7 @@ angular.module('diabolos',
 			{name: "Eleonore",photo : ""},
 			{name: "Johann",photo : ""},
 			{name: "Pierre-Jean",photo : ""},
+			{name: "Lola",photo : ""},
 		];
 		actorList.actors.forEach(function(element) {
 			if(element.photo ===""){
