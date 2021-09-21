@@ -12,9 +12,9 @@ angular.module('diabolos',
 			},{
 				name:"Putaclic",
 				date: new Date(Date.UTC(2021,10,9,18,30)),
-				venue: "La Fabrique à impros (Nantes),
+				venue: "La Fabrique à impros (Nantes)",
 				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/ba1b9896-a7e2-a842-55da-09663aebf32a.jpg",
-				link: "https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/ba1b9896-a7e2-a842-55da-09663aebf32a.jpg"
+				link: "https://lafabriqueaimpros.com/programmation/#events"
 			},{
 				name:"Catch d'impro à l'anglaise",
 				date:new Date(Date.UTC(2021,10,16,20,30)),
