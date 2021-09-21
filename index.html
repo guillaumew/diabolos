@@ -94,7 +94,7 @@
 							<div class="col-lg-4" ng-repeat="spectacle in spectaclesList.spectacles | orderBy:'-date' | limitTo:9">
 								<a ng-href="{{spectacle.link}}" target="_new" class="feature-item row">
 									<div class="col-lg-4 affiche">
-										<img ng-src="img/spectacles/{{spectacle.image}}">
+										<img ng-src="{{spectacle.image}}">
 									</div>
 									<div class="col-lg-8 titre">
 										<h3>{{spectacle.name}}</h3>
