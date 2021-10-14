@@ -26,7 +26,7 @@ angular.module('diabolos',
 				date:new Date(Date.UTC(2021,9,20,16,30)),
 				venue: "Médiathèque René Goscinny (Sainte Luce-sur-Loire)",
 				image:"https://gallery.mailchimp.com/5e087c6d40f3081c7f733c309/images/7d6d852b-5ce7-4ddb-ab20-066a6413efb8.jpg",
-				link:"http://mediatheque.sainte-luce-loire.com/actualite/15-ans"
+				link:"http://mediatheque.sainte-luce-loire.com/actualite/programme-de-lanniversaire-15-ans-de-mediatheque-devoile"
 			}
 		];
 	})
