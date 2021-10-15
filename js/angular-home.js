@@ -27,6 +27,12 @@ angular.module('diabolos',
 				venue: "Médiathèque René Goscinny (Sainte Luce-sur-Loire)",
 				image:"https://gallery.mailchimp.com/5e087c6d40f3081c7f733c309/images/7d6d852b-5ce7-4ddb-ab20-066a6413efb8.jpg",
 				link:"http://mediatheque.sainte-luce-loire.com/actualite/programme-de-lanniversaire-15-ans-de-mediatheque-devoile"
+			},{
+				name:"Politiquement incorrect",
+				date:new Date(Date.UTC(2021,10,06,18,30)),
+				venue: "La Fabrique à impros",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/fdc28007-d61f-7f01-49b2-55d81922ceee.jpg",
+				link:"https://lafabriqueaimpros.com/programmation/#page"
 			}
 		];
 	})
