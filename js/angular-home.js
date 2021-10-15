@@ -33,6 +33,12 @@ angular.module('diabolos',
 				venue: "La Fabrique à impros",
 				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/fdc28007-d61f-7f01-49b2-55d81922ceee.jpg",
 				link:"https://lafabriqueaimpros.com/programmation/#page"
+			},{
+				name:"Mardi c’est derby avec les Lutins givrés",
+				date:new Date(Date.UTC(2021,10,23,21,00)),
+				venue: "La Fabrique à impros",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/ef86a908-1b02-2d34-72c8-18be6d279bc4.jpeg",
+				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/les-mardis-cest-derby-saison-3-lutins-givres-diabolos-nantes/"
 			}
 		];
 	})
