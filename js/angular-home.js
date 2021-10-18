@@ -32,7 +32,7 @@ angular.module('diabolos',
 				date:new Date(Date.UTC(2021,10,06,18,30)),
 				venue: "La Fabrique à impros",
 				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/fdc28007-d61f-7f01-49b2-55d81922ceee.jpg",
-				link:"https://lafabriqueaimpros.com/programmation/#page"
+				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/politiquement-incorrect/"
 			},{
 				name:"Mardi c’est derby avec les Lutins givrés",
 				date:new Date(Date.UTC(2021,10,23,21,00)),
