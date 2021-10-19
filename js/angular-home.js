@@ -39,6 +39,12 @@ angular.module('diabolos',
 				venue: "La Fabrique à impros",
 				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/ef86a908-1b02-2d34-72c8-18be6d279bc4.jpeg",
 				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/les-mardis-cest-derby-saison-3-lutins-givres-diabolos-nantes/"
+			},{
+				name:"L’impro dont vous êtes le héros",
+				date:new Date(Date.UTC(2021,09,23,18,30)),
+				venue: "La Fabrique à impros",
+				image:"https://lafabriqueaimpros.com/wp-content/uploads/2021/10/AFFICHE-IDVELH_2-scaled.jpg",
+				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/limpro-dont-vous-etes-le-heros/"
 			}
 		];
 	})
