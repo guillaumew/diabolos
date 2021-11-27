@@ -16,15 +16,15 @@ angular.module('diabolos',
 				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/ef86a908-1b02-2d34-72c8-18be6d279bc4.jpeg",
 				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/les-mardis-cest-derby-saison-3-lutins-givres-diabolos-nantes/"
 			},{
-				name:"L’impro dont vous êtes le héros",
-				date:new Date(Date.UTC(2021,09,23,18,30)),
-				venue: "La Fabrique à impros",
-				image:"https://lafabriqueaimpros.com/wp-content/uploads/2021/10/AFFICHE-IDVELH_2-scaled.jpg",
-				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/limpro-dont-vous-etes-le-heros/"
+				name:"Le zapping",
+				date:new Date(Date.UTC(2021,11,11,21,00)),
+				venue: "Belle de Jour",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/0d70e969-b86d-128f-ba13-5565db412fe6.png",
+				link:"https://www.facebook.com/diabolosnantesimpro/"
 			},{
 				name:"Scènes de ménage",
 				date:new Date(Date.UTC(2021,10,03,20,30)),
-				venue: " Belle de Jour",
+				venue: "Belle de Jour",
 				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/234cc8a4-3de9-423a-e498-831a60cd0047.png",
 				link:"https://www.facebook.com/events/276613521019350/"
 			}
