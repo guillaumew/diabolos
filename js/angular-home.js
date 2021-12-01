@@ -27,6 +27,12 @@ angular.module('diabolos',
 				venue: "Belle de Jour",
 				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/234cc8a4-3de9-423a-e498-831a60cd0047.png",
 				link:"https://www.facebook.com/events/276613521019350/"
+			},{
+				name:"Catch d'impro pour le Téléthon",
+				date:new Date(Date.UTC(2021,11,04,20,30)),
+				venue: "Le Vallon (Mauves)",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/90534b86-8477-89e4-ccdb-920977983535.jpg",
+				link:"https://www.facebook.com/petit.theatre.mauve/posts/1924501751064361"
 			}
 		];
 	})
@@ -36,22 +42,16 @@ angular.module('diabolos',
 			{name: "Guillaume",photo : "guillaume_wolf.jpg"},
 			{name: "Arnaud",photo : "arnaud_mesnard.jpg"},
 			{name: "Stephane",photo : "stephane_baikoff.jpg"},
-			{name: "Magali",photo : "magali.jpg"},
 			{name: "Sylvain",photo : "sylvain.jpg"},
 			{name: "Juliette",photo : "juliette.jpg"},
 			{name: "Julie",photo : "julie.jpg"},
 			{name: "Adiren G",photo : "adrieng.jpg"},
 			{name: "Anaïs",photo : "anais.jpg"},
 			{name: "Frederic",photo : ""},
-			{name: "Adrien D",photo : ""},
 			{name: "Aude",photo : ""},
-			{name: "Carole",photo : ""},
 			{name: "Laurence",photo : ""},
 			{name: "Christophe",photo : ""},
 			{name: "Eleonore",photo : ""},
-			{name: "Johann",photo : ""},
-			{name: "Pierre-Jean",photo : ""},
-			{name: "Lola",photo : ""},
 		];
 		actorList.actors.forEach(function(element) {
 			if(element.photo ===""){
