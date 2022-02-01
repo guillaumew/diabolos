@@ -6,7 +6,7 @@ angular.module('diabolos',
 			{
 				name:"Catch d'impro : les héros de notre enfance",
 				date:new Date(Date.UTC(2022,01,26,21,00)),
-				venue: "Le Vallon (Mauves)",
+				venue: "Montaigu (85)",
 				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/df99f39d-0c21-7332-c218-f4674b447cc0.jpeg",
 				link:"https://www.helloasso.com/associations/association-heyoka/evenements/les-hilairantes"
 			}
