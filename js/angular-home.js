@@ -4,35 +4,11 @@ angular.module('diabolos',
 		var spectaclesList = this;
 		spectaclesList.spectacles = [
 			{
-				name:"Politiquement incorrect",
-				date:new Date(Date.UTC(2021,10,06,18,30)),
-				venue: "La Fabrique à impros",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/fdc28007-d61f-7f01-49b2-55d81922ceee.jpg",
-				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/politiquement-incorrect/"
-			},{
-				name:"Mardi c’est derby avec les Lutins givrés",
-				date:new Date(Date.UTC(2021,10,23,21,00)),
-				venue: "La Fabrique à impros",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/ef86a908-1b02-2d34-72c8-18be6d279bc4.jpeg",
-				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/les-mardis-cest-derby-saison-3-lutins-givres-diabolos-nantes/"
-			},{
-				name:"Le zapping",
-				date:new Date(Date.UTC(2021,11,11,21,00)),
-				venue: "Belle de Jour",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/0d70e969-b86d-128f-ba13-5565db412fe6.png",
-				link:"https://www.facebook.com/diabolosnantesimpro/"
-			},{
-				name:"Scènes de ménage",
-				date:new Date(Date.UTC(2021,10,03,20,30)),
-				venue: "Belle de Jour",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/234cc8a4-3de9-423a-e498-831a60cd0047.png",
-				link:"https://www.facebook.com/events/276613521019350/"
-			},{
-				name:"Catch d'impro pour le Téléthon",
-				date:new Date(Date.UTC(2021,11,04,20,30)),
+				name:"Catch d'impro : les héros de notre enfance",
+				date:new Date(Date.UTC(2022,01,26,21,00)),
 				venue: "Le Vallon (Mauves)",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/90534b86-8477-89e4-ccdb-920977983535.jpg",
-				link:"https://www.facebook.com/petit.theatre.mauve/posts/1924501751064361"
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/df99f39d-0c21-7332-c218-f4674b447cc0.jpeg",
+				link:"https://www.helloasso.com/associations/association-heyoka/evenements/les-hilairantes"
 			}
 		];
 	})
