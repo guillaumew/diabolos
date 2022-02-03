@@ -33,6 +33,12 @@ angular.module('diabolos',
 				venue: "Nantes (44)",
 				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/801d0e0d-dcec-59cb-d819-e98b6a6bc2c6.jpg",
 				link:"https://lafabriqueaimpros.com/programmation/"
+			},{
+				name:"Improcatch",
+				date:new Date(Date.UTC(2022,01,10,21,00)),
+				venue: "Nantes (44)",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/801d0e0d-dcec-59cb-d819-e98b6a6bc2c6.jpg",
+				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/championnat-nantais-dimprocatch-7/"
 			}
 		];
 	})
