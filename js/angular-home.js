@@ -21,6 +21,18 @@ angular.module('diabolos',
 				venue: "Nantes (44)",
 				image:"https://gallery.mailchimp.com/5e087c6d40f3081c7f733c309/images/7d6d852b-5ce7-4ddb-ab20-066a6413efb8.jpg",
 				link:"https://www.facebook.com/events/241036584868683/"
+			},{
+				name:"Putaclic",
+				date:new Date(Date.UTC(2022,02,5,18,30)),
+				venue: "Nantes (44)",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/ba1b9896-a7e2-a842-55da-09663aebf32a.jpg",
+				link:"https://lafabriqueaimpros.com/programmation/"
+			},{
+				name:"Improcatch",
+				date:new Date(Date.UTC(2022,02,3,21,00)),
+				venue: "Nantes (44)",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/801d0e0d-dcec-59cb-d819-e98b6a6bc2c6.jpg",
+				link:"https://lafabriqueaimpros.com/programmation/"
 			}
 		];
 	})
