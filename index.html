@@ -91,7 +91,7 @@
 				<div class="col-lg-12 my-auto">
 					<div class="container-fluid" ng-controller="SpectaclesListController as spectaclesList">
 						<div class="row">
-							<div class="col-lg-4" ng-repeat="spectacle in spectaclesList.spectacles | orderBy:'-date' | limitTo:9">
+							<div class="col-lg-4" ng-repeat="spectacle in spectaclesList.spectacles | orderBy:'date' | limitTo:9">
 								<a ng-href="{{spectacle.link}}" target="_new" class="feature-item row">
 									<div class="col-lg-4 affiche">
 										<img ng-src="{{spectacle.image}}">
