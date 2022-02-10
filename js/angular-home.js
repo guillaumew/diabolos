@@ -39,7 +39,14 @@ angular.module('diabolos',
 				venue: "Nantes (44)",
 				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/801d0e0d-dcec-59cb-d819-e98b6a6bc2c6.jpg",
 				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/championnat-nantais-dimprocatch-7/"
+			},{
+				name:"Match d'impro",
+				date:new Date(Date.UTC(2022,01,19,21,00)),
+				venue: "Cholet (49)",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/e13a44b5-194d-f1d2-b7c1-b13ffc5ab31d.jpeg",
+				link:"https://www.helloasso.com/associations/les-z-improbables/evenements/match-d-improvisation-les-z-improbables-les-diabolos-nantes"
 			}
+			
 		];
 	})
 	.controller('ActorsListController',function(){
