@@ -4,38 +4,20 @@ angular.module('diabolos',
 		var spectaclesList = this;
 		spectaclesList.spectacles = [
 			{
-				name:"Championnat Nantais d’ImproCatch",
-				date:new Date(Date.UTC(2022,04,5,21,00)),
-				venue: "Nantes (44)",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/93cceceb-872e-190c-cedf-ef729ef200fa.jpeg",
-				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/championnat-nantais-dimprocatch-18/"
-			
-			},{
 				name:"Politiquement incorrect",
-				date:new Date(Date.UTC(2022,04,7,18,30)),
-				venue: "Nantes (44)",
+				date:new Date(Date.UTC(2022,05,11,19,00)),
+				venue: "Salle du Jamet - 25 rue du Jamet - Nantes (44)",
+				Price: "tarif : 7 €"
 				image:"https://lafabriqueaimpros.com/wp-content/uploads/2022/04/politiquement-incorrect.jpg",
-				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/politiquement-incorrect/"
+				link:"https://lekiosquenantais.fr/l-agenda/politiquement-incorrect-la-replique"
 				
 			},{
-				name:"Catch d'impro - La piste aux étoiles",
-				date:new Date(Date.UTC(2022,04,14,20,30)),
-				venue: "Nantes (44)",
-				image:"https://www.billetweb.fr/files/page/thumb/catch-dimpro-la-piste-aux-etoiles.jpg?v=1650155466",
-				link:"https://www.billetweb.fr/catch-dimpro-la-piste-aux-etoiles"
-				
-			},{
-				name:"Mardi c'est derby",
-				date:new Date(Date.UTC(2022,04,17,21,00)),
-				venue: "Nantes (44)",
-				image:"https://lafabriqueaimpros.com/wp-content/uploads/2022/03/mardis_derby.jpg",
-				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/les-mardis-cest-derby-5/"
-			},{
-				name:"Championnat Nantais d’ImproCatch",
-				date:new Date(Date.UTC(2022,04,26,21,00)),
-				venue: "Nantes (44)",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/93cceceb-872e-190c-cedf-ef729ef200fa.jpeg",
-				link:"https://lafabriqueaimpros.com/%C3%A9v%C3%A8nement/championnat-nantais-dimprocatch/"
+				name:"Festival l'envolée - catch impro",
+				date:new Date(Date.UTC(2022,05,24,21,15)),
+				venue: "La tour à Plomb - Couëron (44)",
+				Price: "Tarif : 8€"
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/3c0e6509-1456-a12d-4a38-5090e0a7b3ce.png",
+				link:"https://www.lesluciolesassociation.fr/programmation-festival-lenvolee/"
 			}
 			
 		];
