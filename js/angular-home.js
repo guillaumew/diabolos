@@ -11,8 +11,6 @@ angular.module('diabolos',
 				image:"https://lafabriqueaimpros.com/wp-content/uploads/2022/04/politiquement-incorrect.jpg",
 				link:"https://lekiosquenantais.fr/l-agenda/politiquement-incorrect"
 				
-			},{
-				
 			}
 			
 		];
