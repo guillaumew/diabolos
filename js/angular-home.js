@@ -22,7 +22,7 @@ angular.module('diabolos',
 				
 			}
 		        {
-				name:"Championnat Nantais d'ImproCatch (CNIC) - saison 2",
+				name:"Championnat Nantais d'ImproCatch - saison 2",
 				date:new Date(Date.UTC(2022,10,06,18,30)),
 				venue: "La Fabrique à impros - 14 rue de l'arche sèche - Nantes",
 				Price: "tarif : 8,99 €",
