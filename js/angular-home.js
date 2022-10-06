@@ -10,8 +10,7 @@ angular.module('diabolos',
 				Price: "tarif : 8,99 €",
 				image:"https://lafabriqueaimpros.com/wp-content/uploads/2022/04/politiquement-incorrect.jpg",
 				link:"https://lekiosquenantais.fr/l-agenda/politiquement-incorrect"
-				
-			}
+			},
 			{
 				name:"Autour des livres",
 				date:new Date(Date.UTC(2022,09,29,16,00)),
@@ -20,7 +19,7 @@ angular.module('diabolos',
 				image:"https://mediatheque.laplainesurmer.fr/data/mediatheque.laplainesurmer.fr/application/node/313926/thumb.jpg?v=1663923177",
 				link:"https://mediatheque.laplainesurmer.fr/ca-bouge"
 				
-			}
+			},
 		        {
 				name:"Championnat Nantais d'ImproCatch (CNIC) - saison 2",
 				date:new Date(Date.UTC(2022,10,06,18,30)),
@@ -29,7 +28,7 @@ angular.module('diabolos',
 				image:"https://lafabriqueaimpros.com/wp-content/uploads/2022/09/invites-du-manoir-768x1024.jpg",
 				link:"https://lafabriqueaimpros.com/championnat-nantais-improcatch-saison-2/les-mysterieux-invites-du-manoir"
 				
-			}
+			},
 			{
 				name:"Catch d'impro - Il était une fois au pays des contes",
 				date:new Date(Date.UTC(2022,10,19,20,30)),
