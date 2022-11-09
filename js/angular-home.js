@@ -8,7 +8,7 @@ angular.module('diabolos',
 				date:new Date(Date.UTC(2022,10,19,20,30)),
 				venue: "Le Dix - 10 place des garennes - Nantes",
 				Price: "tarif : 5 €",
-				image:"https://urlz.fr/joIg",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/e971c2a6-ae20-e41a-adb1-5ea8c5ecda03.jpg",
 				link:"https://www.facebook.com/events/1169545483660550?ref=newsfeed"
 			},
 			{
