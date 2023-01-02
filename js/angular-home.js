@@ -3,47 +3,40 @@ angular.module('diabolos',
 	.controller('SpectaclesListController', function() {
 		var spectaclesList = this;
 		spectaclesList.spectacles = [
-			{
-				name:"Catch d'impro - Il était une fois au pays des contes",
-				date:new Date(Date.UTC(2022,10,19,20,30)),
-				venue: "Le Dix - 10 place des garennes - Nantes",
-				Price: "tarif : 5 €",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/e971c2a6-ae20-e41a-adb1-5ea8c5ecda03.jpg",
-				link:"https://www.facebook.com/events/1169545483660550?ref=newsfeed"
-			},
+			
 			{
 				name:"Les jeudis c'est Derby",
-				date:new Date(Date.UTC(2022,10,24,21,00)),
+				date:new Date(Date.UTC(2023,00,05,21,00)),
 				venue: "La Fabrique à impros - 14 rue de l'arche sèche - Nantes",
 				Price: "tarif : 8€",
 				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/1a087a03-8d2d-6208-4f36-59721e5af934.jpeg",
-				link:"https://lafabriqueaimpros.com/produit/les-jeudis-cest-derby-5/"
+				link:"https://lafabriqueaimpros.com/produit/les-jeudis-cest-derby-9/"
 				
 			},
-		        {
+			{
+				name:"L'impro dont vous êtes le héros",
+				date:new Date(Date.UTC(2023,00,14,18,30)),
+				venue: "La Fabrique à impros - 14 rue de l'arche sèche - Nantes",
+				Price: "tarif : 8€",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/4ef4ad6b-76ca-ee86-a1cf-4043eb069bae.jpg",
+				link:"https://lafabriqueaimpros.com/produit/limpro-dont-vous-etes-le-heros/"
+			},
+			 {
 				name:"La vie secrète des livres",
-				date:new Date(Date.UTC(2022,10,26,16,00)),
-				venue: "Bibliothèque de Château Thébaud - 16 rue de l'abbé Ménardeau - 44690 Château Thébaud",
-				Price: "Entrée libre - Réservation obligatoire",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/483f0e26-10a8-647b-99df-874f0feff1a8.jpg",
-				link:"https://docs.google.com/forms/d/e/1FAIpQLScvjAbiSKXN2zisZ2Cv887hlf11RO-W8GM-97Yacpaz_8Kc_Q/viewform"
+				date:new Date(Date.UTC(2023,00,20,19,00)),
+				venue: "Médiathèque de Saint Aignan de Grand Lieu - 39 Rue des Frères Rousseau",
+				Price: "Entrée libre",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/ce6e8167-a7f5-cdca-61a1-2e777c947c03.jpg",
+				link:"https://www.facebook.com/events/934219190900867"
 				
 			},
 			{
-				name:"Championnat Nantais d'Improcatch - Saison 2",
-				date:new Date(Date.UTC(2022,11,04,18,30)),
-				venue: "La Fabrique à impros - 14 rue de l'arche sèche - Nantes",
+				name:"Match avec l'Alligator de Bordeaux",
+				date:new Date(Date.UTC(2023,00,21,20,30)),
+				venue: "Union Saint Bruno - 49 Rue Brizard, Bordeaux",
 				Price: "tarif : 8€",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/717dd047-ec5d-8b15-02f7-bf898b725967.jpg",
-				link:"https://lekiosquenantais.fr/l-agenda/championnat-nantais-d-improcatch-venez-voter-pour-votre-equipe-d-improvisateurs-preferee"
-			},
-			{
-				name:"le JT pas prêt",
-				date:new Date(Date.UTC(2022,11,10,18,30)),
-				venue: "La Fabrique à impros - 14 rue de l'arche sèche - Nantes",
-				Price: "tarif : 8€",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/11ebed65-3be5-8810-2ef5-7c04698f256e.png",
-				link:"https://lafabriqueaimpros.com/produit/jt-pas-pret/"
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/10464ad1-b749-abe2-3488-17af57999985.jpg",
+				link:"https://www.helloasso.com/associations/union-saint-bruno/evenements/match-d-impro-diabolos-nantes-vs-l-alligator"
 			},
 		];
 	})
