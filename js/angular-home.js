@@ -5,20 +5,29 @@ angular.module('diabolos',
 		spectaclesList.spectacles = [
 			
 			{
-				name:"Thérapie de couples",
-				date:new Date(Date.UTC(2023,02,11,18,30)),
-				venue: "La Fabrique à impros - 14 rue de l'arche sèche - Nantes",
-				Price: "tarif : 8€",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/7b3ce511-bb9d-87e2-6fc7-286ad6c3be55.jpg",
-				link:"https://lafabriqueaimpros.com/produit/therapie-de-couples/"
+				name:"Kabaraoké",
+				date:new Date(Date.UTC(2023,03,14,20,30)),
+				venue: "Les filles du Marronnier - 3 Boulevard Gabriel Lauriol - Nantes",
+				Price: "Entrée libre",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/c95d8ba8-bae1-0293-7628-2bc0a27de8c4.jpg",
+				link:"https://www.facebook.com/events/745726783889261"
 			},
 			{
-				name:"Les jeudis c'est Derby",
-				date:new Date(Date.UTC(2023,02,23,21,00)),
-				venue: "La Fabrique à impros - 14 rue de l'arche sèche - Nantes",
+				name:"Match d'impro Lille vs Nantes",
+				date:new Date(Date.UTC(2023,04,06,20,30)),
+				venue: "Le Dix - 10 place des Garennes - Nantes",
+				Price: "tarif : 5€",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/d2f85320-e019-09cb-1b17-b685631d0740.jpg",
+				link:"https://www.billetweb.fr/match-dimpro-cric-de-lille-vs-diabolos-nantes"
+				
+			},
+			{
+				name:"Championnat nantais d'impro-catch saison 2",
+				date:new Date(Date.UTC(2023,04,06,20,30)),
+				venue: "La Fabrique à Impro - 14 rue de l'Arche Sèche - Nantes",
 				Price: "tarif : 8€",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/1a087a03-8d2d-6208-4f36-59721e5af934.jpeg",
-				link:"https://lafabriqueaimpros.com/produit/les-jeudis-cest-derby-16/"
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/717dd047-ec5d-8b15-02f7-bf898b725967.jpg",
+				link:"https://lafabriqueaimpros.com/produit/championnat-nantais-dimprocatch-28/"
 				
 			},
 		];
