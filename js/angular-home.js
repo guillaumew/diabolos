@@ -5,12 +5,12 @@ angular.module('diabolos',
 		spectaclesList.spectacles = [
 			
 			{
-				name:"Kabaraoké",
-				date:new Date(Date.UTC(2023,03,14,20,30)),
-				venue: "Les filles du Marronnier - 3 Boulevard Gabriel Lauriol - Nantes",
+				name:"Cabaret avec les Transbordeurs",
+				date:new Date(Date.UTC(2023,04,02,20,30)),
+				venue: "Pioche - 10 rue de Bel air - Nantes",
 				Price: "Entrée libre",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/c95d8ba8-bae1-0293-7628-2bc0a27de8c4.jpg",
-				link:"https://www.facebook.com/events/745726783889261"
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/f712bc48-9c2a-99d3-997b-35da3ca807fe.jpg",
+				link:"https://www.facebook.com/events/783133896771853"
 			},
 			{
 				name:"Match d'impro Lille vs Nantes",
