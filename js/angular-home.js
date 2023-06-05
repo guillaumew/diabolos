@@ -5,31 +5,23 @@ angular.module('diabolos',
 		spectaclesList.spectacles = [
 			
 			{
-				name:"Cabaret avec les Transbordeurs",
-				date:new Date(Date.UTC(2023,04,02,20,30)),
-				venue: "Pioche - 10 rue de Bel air - Nantes",
+				name:"Festival l'Envolée #10 - Mini-match Diabolos Nantes vs La Troupanou",
+				date:new Date(Date.UTC(2023,05,10,18,30)),
+				venue: "La tour à plomb - Quai Emile Paraf - Couëron",
+				Price: "De 6€ à 10€",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/54b9d280-9c82-b4b7-a84a-ac59d3b5b92d.jpg",
+				link:"https://www.lesluciolesassociation.fr"
+			},
+			{
+				name:"Le Titan et les Diabolos Nantes partent à l'aventure",
+				date:new Date(Date.UTC(2023,05,15,21,00)),
+				venue: "L'Ubik - 43 rue du maréchal Joffre - Nantes",
 				Price: "Entrée libre",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/f712bc48-9c2a-99d3-997b-35da3ca807fe.jpg",
-				link:"https://www.facebook.com/events/783133896771853"
-			},
-			{
-				name:"Match d'impro Lille vs Nantes",
-				date:new Date(Date.UTC(2023,04,06,20,30)),
-				venue: "Le Dix - 10 place des Garennes - Nantes",
-				Price: "tarif : 5€",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/d2f85320-e019-09cb-1b17-b685631d0740.jpg",
-				link:"https://www.billetweb.fr/match-dimpro-cric-de-lille-vs-diabolos-nantes"
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/468f5e6a-2f0d-e399-58b9-b99667968d9d.png",
+				link:"https://www.facebook.com/events/634583884935159"
 				
 			},
-			{
-				name:"Championnat nantais d'impro-catch saison 2",
-				date:new Date(Date.UTC(2023,04,06,20,30)),
-				venue: "La Fabrique à Impro - 14 rue de l'Arche Sèche - Nantes",
-				Price: "tarif : 8€",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/717dd047-ec5d-8b15-02f7-bf898b725967.jpg",
-				link:"https://lafabriqueaimpros.com/produit/championnat-nantais-dimprocatch-28/"
-				
-			},
+			
 		];
 	})
 	.controller('ActorsListController',function(){
