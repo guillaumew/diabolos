@@ -5,20 +5,20 @@ angular.module('diabolos',
 		spectaclesList.spectacles = [
 			
 			{
-				name:"Festival l'Envolée #10 - Mini-match Diabolos Nantes vs La Troupanou",
-				date:new Date(Date.UTC(2023,05,10,18,30)),
-				venue: "La tour à plomb - Quai Emile Paraf - Couëron",
-				Price: "De 6€ à 10€",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/54b9d280-9c82-b4b7-a84a-ac59d3b5b92d.jpg",
-				link:"https://www.lesluciolesassociation.fr"
+				name:"CNIC Saison 3 - le maître du mal et son fidèle serviteur - match 1",
+				date:new Date(Date.UTC(2023,08,17,20,00)),
+				venue: "La Fabrique à Impro - 14 rue de l'Arche Sèche - Nantes",
+				Price: "9€",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/9a2b87ae-20c1-8052-0057-b8f9e733a795.jpg",
+				link:"https://lafabriqueaimpros.com"
 			},
 			{
-				name:"Le Titan et les Diabolos Nantes partent à l'aventure",
-				date:new Date(Date.UTC(2023,05,15,21,00)),
-				venue: "L'Ubik - 43 rue du maréchal Joffre - Nantes",
-				Price: "Entrée libre",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/468f5e6a-2f0d-e399-58b9-b99667968d9d.png",
-				link:"https://www.facebook.com/events/634583884935159"
+				name:"Kabaraoké",
+				date:new Date(Date.UTC(2023,08,29,21,00)),
+				venue: "La Fabrique à Impro - 14 rue de l'Arche Sèche - Nantes",
+				Price: "14€",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/c95d8ba8-bae1-0293-7628-2bc0a27de8c4.jpg",
+				link:"https://lafabriqueaimpros.com"
 				
 			},
 			
