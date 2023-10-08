@@ -5,21 +5,21 @@ angular.module('diabolos',
 		spectaclesList.spectacles = [
 			
 			{
-				name:"CNIC Saison 3 - le maître du mal et son fidèle serviteur - match 1",
-				date:new Date(Date.UTC(2023,08,17,20,00)),
+				name:"Politiquement incorrect",
+				date:new Date(Date.UTC(2023,09,14,18,30)),
 				venue: "La Fabrique à Impro - 14 rue de l'Arche Sèche - Nantes",
 				Price: "9€",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/9a2b87ae-20c1-8052-0057-b8f9e733a795.jpg",
-				link:"https://lafabriqueaimpros.com"
-			},
-			{
-				name:"Kabaraoké",
-				date:new Date(Date.UTC(2023,08,29,21,00)),
-				venue: "La Fabrique à Impro - 14 rue de l'Arche Sèche - Nantes",
-				Price: "14€",
-				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/c95d8ba8-bae1-0293-7628-2bc0a27de8c4.jpg",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/7462f7a0-21f8-c224-62eb-338575373881.jpg",
 				link:"https://lafabriqueaimpros.com"
 				
+			},
+			{
+				name:"CNIC Saison 3 - Y.M.J.B - match 1",
+				date:new Date(Date.UTC(2023,09,29,18,00)),
+				venue: "La Fabrique à Impro - 14 rue de l'Arche Sèche - Nantes",
+				Price: "9€",
+				image:"https://mcusercontent.com/5e087c6d40f3081c7f733c309/images/c2437684-72ef-9ef9-2fa2-226ae0434c5d.png",
+				link:"https://lafabriqueaimpros.com"
 			},
 			
 		];
