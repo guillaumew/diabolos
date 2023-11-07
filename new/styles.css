@@ -133,7 +133,7 @@ a.pure-button-primary {
     z-index: 1;
     overflow: hidden;
     /* The following styles are required for the "scroll-over" effect */
-    width: 100%;
+    right: 0;
     height: 88%;
     top: 3.75em;
     left: 0;
@@ -250,7 +250,8 @@ a.pure-button-primary {
 /* This is the class used for the footer */
 .footer {
     background: black;
-    width: 100%;
+    left: 0;
+    right:0;
     bottom: 0;
 }
 
