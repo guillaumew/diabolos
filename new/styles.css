@@ -1,4 +1,4 @@
-* {
+..* {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
@@ -142,7 +142,7 @@ a.pure-button-primary {
 
 .splash {
     /* absolute center .splash within .splash-container */
-    height: 50%;
+    //height: 50%;
     margin: auto;
     position: absolute;
     top: 100px; left: 0; bottom: 0; right: 0;
@@ -223,13 +223,12 @@ a.pure-button-primary {
     width: calc(100% - 40px);
     overflow: auto;
 }
-.card .affiche{
-    float: left;
-    display: block;
+
+.card p{
+    height: 5.1em;
+    overflow: hidden;
 }
-.card .spectacle{
-    margin-left:210px;
-}
+
 .card .spectacle .info{
     text-align: right;
     bottom: 10px;
@@ -238,15 +237,16 @@ a.pure-button-primary {
 }
 
 .content-contact{
-    background-image: url('../img/dn.jpeg');
+    background-image: url('img/dn.jpeg');
     background-size: cover;
     background-position: center;
 }
 .contact-box{
     background: rgba(0,0,0,0.75);
-    margin: 5em;
+    margin: 1em;
     padding:1em;
 }
+
 /* This is the class used for the footer */
 .footer {
     background: black;
@@ -296,6 +296,13 @@ a.pure-button-primary {
         border: none;
     }
 
+    
+    .contact-box{
+        padding: 5em;
+        margin:5em;
+    }
+}
+
 }
 
 /*
@@ -307,5 +314,9 @@ a.pure-button-primary {
     /* We increase the header font size even more */
     .splash-head {
         font-size: 300%;
+    }
+    .contact-box{
+        padding: 5em;
+        margin:5em;
     }
 }
