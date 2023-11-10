@@ -1,4 +1,4 @@
-# Le nouveau site des diabolos Nantes
+# Le nouveau site des Diabolos Nantes
 ## Mise à jour du contenu
 Pour mettre à jour les dates de spectacle sur le site, il faut aller dans le répertoire `_dates`.
 
