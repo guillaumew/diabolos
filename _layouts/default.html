@@ -27,17 +27,8 @@
                 </p>
             </div>
             <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-                {% assign image_path=site.baseurl | append:'assets/img/' | append: page.img %}
-                {% responsive_image_block %}
-                  path: {{ image_path }}
-                  alt: {{ page.title }}
-                  {% if page.title %}
-                  title: {{ page.title }}
-                  {% endif %}
-                  class: pure-img-responsive
-                  width: 300
-                {% endresponsive_image_block %}    
-            </div>   
+                {% assign image_path=site.baseurl | append:'/assets/img/' | append: page.img %}
+                <img width="300" alt="{{page.title}}" class="pure-img-responsive" src="{{ image_path }}">      
             </div>
         </div>
     </div>

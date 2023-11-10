@@ -15,9 +15,3 @@ defaults:
 domain: diabolosnantes.fr
 url: https://www.diabolosnantes.fr
 baseurl:
-
-responsive_image:
-  template: _includes/image.html
-  sizes:
-    - width: 301
-    - width: 400
