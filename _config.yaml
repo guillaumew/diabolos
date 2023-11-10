@@ -1,0 +1,17 @@
+collections:
+  dates:
+    output: true
+
+defaults:
+  - scope:
+      path: ""
+      type: "dates"
+    values:
+      layout: "date"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+domain: diabolosnantes.fr
+url: https://www.diabolosnantes.fr
+baseurl:

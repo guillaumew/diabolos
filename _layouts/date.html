@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<div class="pure-g content">
+    <div class="pure-u-1 pure-u-md-1-3">
+		<h2>Informations pratiques</h2>
+		<ul>
+			<li>Date : Le {{ page.begin_date | date: "%d/%m/%Y" }}</li>
+			<li>Heure : A {{ page.begin_date | date: "%Hh%M" }}</li>
+			<li>Lieu : {{ page.venue}} </li>
+			<li>Adresse : {{ page.address}} </li>
+			<li>Prix : {{page.pricing}}</li>
+		</ul>
+	</div>
+	<div class="pure-u-1 pure-u-md-2-3">
+		<h2>Le spectacle</h2>
+		{{content}}
+	</div>
+</div>
+<div class="is-center l-box-lrg">
+	<a href="{{page.cta_url}}" class="pure-button pure-button-secondary">{{page.cta_text}}</a>
+</div>

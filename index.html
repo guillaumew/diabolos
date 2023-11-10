@@ -1,150 +1,70 @@
-<!DOCTYPE html>
-<html lang="en">
+---
+title: Les Diabolos Nantes
+summary: Une troupe d'improvisation, qu'elle est super bien.
+img: logo.jpg
+cta_text: Nos Spectacles
+cta_url: '#spectacles'
+---
 
-<head>
+<div class="ribbon l-box-lrg" id="spectacles">
+    <h2 class="content-head content-head-ribbon">Nos spectacles</h2>
+    <div class="pure-g">
+        {% assign sorted_dates = site.dates | sort: 'begin_date' %}
+        {% for date in sorted_dates %}
+        <div class="pure-u-1-1 pure-u-lg-1-2 pure-u-xxl-1-3">
+            <a href="{{site.baseurl}}{{date.url}}">
+                <div class="card pure-g">
+                    <img src="{{site.baseurl}}/assets/img/{{date.img}}" class="affiche pure-u-1 pure-u-sm-1-3" alt="Affiche de {{date.title}}">
+                    <div class="spectacle pure-u-1 pure-u-sm-2-3">
+                        <div class="inside-spectacle">
+                            <h3>{{date.title}}</h3>
+                            <p> {{date.summary}}</p>
+                            <div class="info">
+                                Le {{ date.begin_date | date: "%d/%m/%Y à %H:%M" }}
+                                <br>
+                                {{date.venue}}
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="Guillaume Wolf">
-	<link rel="shortcut icon" type="image/png" href="img/favicon.png"/>
+<div class="content content-contact">
+    <div class="contact-box">
+        <h2 class="content-head is-center">Nous aimons les nouveaux amis</h2>
 
-	<title>Diabolos Nantes</title>
+        <div class="pure-g">
+            <div class="pure-u-1 pure-u-md-2-5">
+                <h4>Viens nous voir sur les réseaux :</h4>
+                <div>
+                    <a class="pure-button" href="https://www.facebook.com/diabolosnantesimpro/?locale=fr_FR" target="New_tab">Notre Page Facebook</a>
+                </div>
+            </div>
 
-	<!-- Bootstrap core CSS -->
-	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+            <div class="pure-u-1 pure-u-md-3-5">
+                <h4>On garde le contact par mail :</h4>
+                    <p>
+                        <div id="mc_embed_signup">
+                        <form action="https://diabolosnantes.us20.list-manage.com/subscribe/post?u=5e087c6d40f3081c7f733c309&amp;id=ba5dcbcb4f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="pure-form pure-form-stacked" target="_blank" novalidate>
+                            <div id="mc_embed_signup_scroll">
+                            
+                            <p><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Votre email" required>
+                            <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+                            <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5e087c6d40f3081c7f733c309_ba5dcbcb4f" tabindex="-1" value=""></div></p>
+                            
+                            <p><div class="clear"><input type="submit" value="S'inscrire à la newsletter" name="subscribe" id="mc-embedded-subscribe" class="pure-button"></div></p>
+                            </div>
+                        </form>
+                        </div>
 
-	<!-- Custom fonts for this template -->
-	<link rel="stylesheet" href="vendor/simple-line-icons/css/simple-line-icons.css">
+                        <!--End mc_embed_signup-->
+                    </p>
+            </div>
+        </div>
+    </div>
 
-	<!-- AngularJS -->
-	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.6/angular.min.js"></script>
-	<script type="text/javascript" src="js/angular-home.js"></script>
-
-	<!-- Custom styles for this template -->
-	<link href="css/new-age.css" rel="stylesheet">
-
-	<!-- Outils analytics -->
-	<script defer async data-host="diabolosnantes.fr" src="https://liteanalytics.com/lite.js"></script>
-
-</head>
-
-<body id="page-top" ng-app="diabolos">
-
-	<!-- Navigation -->
-	<nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
-		<div class="container">
-			<a class="navbar-brand js-scroll-trigger" href="#page-top">Diabolos Nantes</a>
-		</div>
-	</nav>
-
-	<header class="masthead">
-		<div class="container h-100">
-			<div class="row h-100">
-				<div class="col-lg-7 my-auto">
-					<div class="header-content mx-auto">
-						<h1>Les Diabolos Nantes</h1>
-						<h2 class="mb-5">Une troupe d'improvisation, qu'elle est super bien.</h2>
-						<a href="#spectacles" class="btn btn-outline btn-xl js-scroll-trigger">Nos spectacles</a>
-					</div>
-				</div>
-				<div class="col-lg-5 my-auto">
-					<div class="device-container">
-						<div class="device-mockup iphone6_plus portrait white">
-							<div class="device">
-								<div class="screen">
-								<img src="img/logo.jpg" class="img-fluid" alt="Logo Diabolos Nantes">
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</header>
-
-	<section class="spectacles" id="spectacles">
-		<div class="container">
-			<div class="section-heading text-center">
-				<h2>Nos spectacles</h2>
-				<p class="text-muted">La troupe se produit plusieurs fois par mois dans la région de Nantes.</p>
-			</div>
-			<div class="row">
-				<div class="col-lg-12 my-auto">
-					<div class="container-fluid" ng-controller="SpectaclesListController as spectaclesList">
-						<div class="row">
-							<div class="col-lg-4" ng-repeat="spectacle in spectaclesList.spectacles | orderBy:'date' | limitTo:9">
-								<a ng-href="{{spectacle.link}}" target="_new" class="feature-item row">
-									<div class="col-lg-4 affiche">
-										<img ng-src="{{spectacle.image}}">
-									</div>
-									<div class="col-lg-8 titre">
-										<h3>{{spectacle.name}}</h3>
-										<div>
-											<p class="text-muted">Le {{spectacle.date | date:'dd/MM/yyyy'}}</p>
-											<p class="text-muted">{{spectacle.venue}}</p>
-										</div>
-									</div>
-								</a>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-	</section>
-
-
-	<section class="contact bg-primary text-center" id="contact">
-		<div class="contact-content">
-			<div class="container">
-				<div class="contact-card">
-					<div class="row">
-						<div class="col-md-12">
-							<h2 class="section-heading">Nous aimons les nouveaux amis !</h2>
-						</div>
-					</div>
-					<div class="row">
-						<div class="col-lg-6">
-							<h3>Viens nous voir sur Facebook :</h3>
-							<div>
-								<a class="btn btn-primary btn-outline btn-xl" style="background-color:#DC258F;color:#FFFFFF;border:#DC258F;cursor: pointer;" href="https://www.facebook.com/diabolosnantesimpro/?locale=fr_FR" target="New_tab">Notre Page Facebook</a>
-							</div>
-						</div>
-						<div class="col-lg-6">
-							<h3>On garde le contact par mail :</h3>
-							<p>
-								<div id="mc_embed_signup">
-								<form action="https://diabolosnantes.us20.list-manage.com/subscribe/post?u=5e087c6d40f3081c7f733c309&amp;id=ba5dcbcb4f" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
-								    <div id="mc_embed_signup_scroll">
-									
-									<p><input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="Votre email" required style="width:80%">
-								    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
-								    <div style="position: absolute; left: -5000px;" aria-hidden="true"><input type="text" name="b_5e087c6d40f3081c7f733c309_ba5dcbcb4f" tabindex="-1" value=""></div></p>
-								    
-								    <p><div class="clear"><input type="submit" style="background-color:#DC258F;color:#FFFFFF;border:#DC258F;cursor: pointer;" value="S'inscrire à la newsletter" name="subscribe" id="mc-embedded-subscribe" class="button btn btn-outline btn-xl"></div></p>
-								    </div>
-								</form>
-								</div>
-
-								<!--End mc_embed_signup-->
-							</p>
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="overlay"></div>
-	</section>
-
-
-	<footer>
-		<div class="container">
-			<p>Site réalisé par <a href="https://www.linkedin.com/in/guillaumewolf/" target="_new">Guillaume Wolf</a></p>
-			<p>&copy; 2023 Diabolos Nantes. Tout droits reservés.</p>
-		</div>
-	</footer>
-
-</body>
-
-</html>
+</div>
