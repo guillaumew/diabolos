@@ -1,9 +1,7 @@
 ---
 title: Les Diabolos Nantes
-summary: Une troupe d'improvisation, qu'elle est super bien.
+summary: "Vivre l'improvisation : Inédite, immersive et inoubliable."
 img: logo.jpg
-cta_text: Nos Spectacles
-cta_url: '#spectacles'
 ---
 
 <div class="ribbon l-box-lrg" id="spectacles">
@@ -11,24 +9,12 @@ cta_url: '#spectacles'
     <div class="pure-g">
         {% assign sorted_dates = site.dates | sort: 'begin_date' %}
         {% for date in sorted_dates %}
-        <div class="pure-u-1-1 pure-u-lg-1-2 pure-u-xxl-1-3">
-            <a href="{{site.baseurl}}{{date.url}}">
-                <div class="card pure-g">
-                    <img src="{{site.baseurl}}/assets/img/{{date.img}}" class="affiche pure-u-1 pure-u-sm-1-3" alt="Affiche de {{date.title}}">
-                    <div class="spectacle pure-u-1 pure-u-sm-2-3">
-                        <div class="inside-spectacle">
-                            <h3>{{date.title}}</h3>
-                            <p> {{date.summary}}</p>
-                            <div class="info">
-                                Le {{ date.begin_date | date: "%d/%m/%Y à %H:%M" }}
-                                <br>
-                                {{date.venue}}
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </a>
-        </div>
+            {% capture info %}
+                Le {{ date.begin_date | date: "%d/%m/%Y à %H:%M" }}
+                <br>
+                {{date.venue}}
+            {% endcapture %}
+            {% include card.html link=date.url img=date.img title=date.title summary=date.summary info=info%}
         {% endfor %}
     </div>
 </div>

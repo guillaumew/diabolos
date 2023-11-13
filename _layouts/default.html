@@ -22,9 +22,11 @@
                 <p class="splash-subhead">
                     {{page.summary}}
                 </p>
+                {% if page.cta_text %}
                 <p>
                     <a href="{{page.cta_url}}" class="pure-button pure-button-primary">{{page.cta_text}}</a>
                 </p>
+                {% endif %}
             </div>
             <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
                 {% assign image_path=site.baseurl | append:'/assets/img/' | append: page.img %}

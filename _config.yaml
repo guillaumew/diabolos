@@ -1,6 +1,8 @@
 collections:
   dates:
     output: true
+  spectacles:
+    output: false
 
 defaults:
   - scope:
@@ -10,8 +12,14 @@ defaults:
       layout: "date"
   - scope:
       path: ""
+      type: "spectacles"
     values:
       layout: "default"
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+
 domain: diabolosnantes.fr
 url: https://www.diabolosnantes.fr
 baseurl:

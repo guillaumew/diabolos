@@ -230,7 +230,6 @@ a .card{
 
 .card .spectacle .info{
     text-align: right;
-    bottom: 10px;
     right: 10px;
     position: relative;
 }
@@ -256,6 +255,11 @@ a .card{
     left: 0;
     right:0;
     bottom: 0;
+}
+
+.date_info{
+    position: sticky;
+    top: 4em;
 }
 
 /*
