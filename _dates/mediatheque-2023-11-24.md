@@ -2,7 +2,7 @@
 title: La vie secrète des livres
 begin_date: 2023-11-24 20:00
 duration: 45 min
-img: clisson.jpg
+img: clisson.webp
 summary: Quelles histoires se cachent derrière les lignes et les images des livres de la médiathèque ?
 venue: Médiathèque de Clisson
 address: 1 Place Jacques Demy - 44 Clisson
