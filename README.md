@@ -122,7 +122,7 @@ Avec :
 	- Le [markdown](https://stackedit.io/app#) est autorisé
 
 ## Faire fonctionner le projet en local
-Cette étape est réservé pour le développement du site
+Cette étape est réservée pour le développement du site
 
 ### Installation
 Il faut avoir Ruby, RubyGems, GCC et Make sur son ordinateur. Voir [le guide d'installation](https://jekyllrb.com/docs/installation/).
