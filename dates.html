@@ -1,0 +1,27 @@
+---
+title: Les dates à venir 
+summary: Tous les prochains spectacles des Diabolos Nantes
+image: logo.webp
+---
+
+<div class="ribbon l-box-lrg" id="spectacles">
+    <div class="pure-g">
+        {% assign sorted_dates = site.dates | sort: 'begin_date' %}
+        {% for date in sorted_dates %}
+            {% capture info %}
+                Le {{ date.begin_date | date: "%d/%m/%Y à %H:%M" }}
+                <br>
+                {{date.venue}}
+            {% endcapture %}
+            {% if date.image %}
+                {% assign image=date.image %}
+            {% elsif date.spectacle %}
+                {% assign spectacle = site.spectacles | where: 'short', date.spectacle | first %}
+                {% assign image = spectacle.image %}
+            {% else %}
+                {% assign image = 'logo.webp' %}
+            {% endif %}
+            {% include card.html link=date.url image=image title=date.title summary=date.summary info=info%}
+        {% endfor %}
+    </div>
+</div>

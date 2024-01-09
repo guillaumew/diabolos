@@ -8,7 +8,7 @@ image: logo.webp
     <h2 class="content-head content-head-ribbon">Nos prochains spectacles</h2>
     <div class="pure-g">
         {% assign sorted_dates = site.dates | sort: 'begin_date' %}
-        {% for date in sorted_dates limit:6 %}
+        {% for date in sorted_dates limit:4 %}
             {% capture info %}
                 Le {{ date.begin_date | date: "%d/%m/%Y à %H:%M" }}
                 <br>
@@ -24,6 +24,9 @@ image: logo.webp
             {% endif %}
             {% include card.html link=date.url image=image title=date.title summary=date.summary info=info%}
         {% endfor %}
+    </div>
+    <div class="is-center">
+        <a href="/dates.html" class="pure-button">Voir tous les spectacles à venir</a>
     </div>
 </div>
 
