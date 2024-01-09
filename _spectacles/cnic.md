@@ -1,7 +1,7 @@
 ---
 short: cnic
 title: Championnat Nantais d'Impro-Catch
-img: catch.webp
+img: cnic.webp
 summary: Une formule officielle qui met en avant toute l'énergie des Diabolos Nantes.
 type: shortform
 audience: Adultes et adolesent.e.s

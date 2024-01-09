@@ -29,8 +29,15 @@
                 {% endif %}
             </div>
             <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-                {% assign image_path=site.baseurl | append:'/assets/img/' | append: page.img %}
-                <img width="300" alt="{{page.title}}" class="pure-img-responsive" src="{{ image_path }}">      
+                {% if page.img %}
+                    {% assign image = page.img %}
+                {% elsif page.spectacle %}
+                    {% assign spectacle = site.spectacles | where: 'short', page.spectacle | first %}
+                    {% assign image = spectacle.img %}
+                {% else %}
+                    {% assign image = 'logo.webp' %}
+                {% endif %}
+                <img width="300" alt="{{page.title}}" class="pure-img-responsive" src="/assets/img/{{image}}">      
             </div>
         </div>
     </div>

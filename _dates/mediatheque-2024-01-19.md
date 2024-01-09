@@ -3,7 +3,6 @@ title: La vie secrète des livres
 begin_date: 2024-01-19 19:00
 duration: 60 min
 summary: Quelles histoires se cachent derrière les lignes et les images des livres de la médiathèque ?
-img: mediatheque.webp
 venue: Médiathèque Le Jardin de Lecture
 address: 39, rue des frères Rousseau - 44 Saint Aignan de Grandlieu
 pricing: Entrée libre

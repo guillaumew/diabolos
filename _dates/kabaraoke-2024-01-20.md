@@ -2,7 +2,6 @@
 title: Kabaraoké
 begin_date: 2024-01-20 21:00
 duration: 1h15
-img: kabaraoke.webp
 summary: Avec qui allez-vous chanter votre morceau préféré ?
 venue: La Fabrique à Impros
 address: 14 rue de l'Arche Sèche - 44 Nantes

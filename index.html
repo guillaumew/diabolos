@@ -14,7 +14,15 @@ img: logo.webp
                 <br>
                 {{date.venue}}
             {% endcapture %}
-            {% include card.html link=date.url img=date.img title=date.title summary=date.summary info=info%}
+            {% if date.img %}
+                {% assign image=date.img %}
+            {% elsif date.spectacle %}
+                {% assign spectacle = site.spectacles | where: 'short', date.spectacle | first %}
+                {% assign image = spectacle.img %}
+            {% else %}
+                {% assign image = 'logo.webp' %}
+            {% endif %}
+            {% include card.html link=date.url img=image title=date.title summary=date.summary info=info%}
         {% endfor %}
     </div>
 </div>

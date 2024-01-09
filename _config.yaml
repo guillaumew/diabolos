@@ -4,6 +4,9 @@ collections:
   spectacles:
     output: false
 
+sass:
+  style: compressed
+
 defaults:
   - scope:
       path: ""
