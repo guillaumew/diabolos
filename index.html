@@ -8,7 +8,7 @@ image: logo.webp
     <h2 class="content-head content-head-ribbon">Nos prochains spectacles</h2>
     <div class="pure-g">
         {% assign sorted_dates = site.dates | sort: 'begin_date' %}
-        {% for date in sorted_dates %}
+        {% for date in sorted_dates limit:6 %}
             {% capture info %}
                 Le {{ date.begin_date | date: "%d/%m/%Y à %H:%M" }}
                 <br>
