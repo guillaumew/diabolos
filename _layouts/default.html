@@ -3,11 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Guillaume Wolf">
-    <meta name="description" content="Le site des Diabolos Nantes, une troupe d'improvisation théatrale de la région nantaise.">
-    <title>Diabolos Nantes</title>
-    <link rel="stylesheet" href="{{site.baseurl}}/assets/css/common.css">
-    <link rel="shortcut icon" type="image/png" href="{{site.baseurl}}/assets/img/favicon.ico">
+    {% seo %}
+    <link rel="stylesheet" href="/assets/css/common.css">
+    <link rel="shortcut icon" type="image/png" href="/assets/img/favicon.ico">
     <script defer async data-host="diabolosnantes.fr" src="https://liteanalytics.com/lite.js"></script>
 </head>
 <body>
@@ -29,11 +27,11 @@
                 {% endif %}
             </div>
             <div class="is-center pure-u-1 pure-u-md-1-2 pure-u-lg-2-5">
-                {% if page.img %}
-                    {% assign image = page.img %}
+                {% if page.image %}
+                    {% assign image = page.image %}
                 {% elsif page.spectacle %}
                     {% assign spectacle = site.spectacles | where: 'short', page.spectacle | first %}
-                    {% assign image = spectacle.img %}
+                    {% assign image = spectacle.image %}
                 {% else %}
                     {% assign image = 'logo.webp' %}
                 {% endif %}

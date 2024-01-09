@@ -1,7 +1,7 @@
 ---
 short: putaclic
 title: Putaclic
-img: putaclic.webp
+image: putaclic.webp
 summary: ou le monde merveileux d'internet
 type: shortform
 audience: Adultes et adolesent.e.s

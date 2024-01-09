@@ -12,7 +12,7 @@ Dans le fichier il faut suivre le formalisme suivant :
 title: TITRE
 begin_date: DATE
 duration: DUREE
-img: IMAGE
+image: IMAGE
 venue: LIEU
 address: ADRESSE
 pricing: PRIX
@@ -85,7 +85,7 @@ Cela fonctionne un peu comme les dates. Cela se trouve dans `_spectacles`. Voici
 ---
 short: SHORT
 title: TITRE
-img: IMG
+image: IMG
 summary: DESCRIPTION_COURTE
 type: TYPE
 audience: PUBLIC

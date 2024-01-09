@@ -23,6 +23,26 @@ defaults:
     values:
       layout: "default"
 
+title: Diabolos Nantes
+description: "Vivre l'improvisation : inédite, immersive et inoubliable"
+tagline: "Vivre l'improvisation : inédite, immersive et inoubliable"
+url: https://www.diabolosnantes.fr
+author: 
+  twitter: geeyom
+  picture: /assets/img/guillaumewolf.webp
+logo: /assets/img/logo.webp
+social:
+  name: Diabolos Nantes
+  links:
+    - https://www.facebook.com/diabolosnantesimpro/
+    - https://www.youtube.com/@diabolosnantesimpro4306
+
+locale: 'fr_FR'
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
 domain: diabolosnantes.fr
 url: https://www.diabolosnantes.fr
 baseurl:

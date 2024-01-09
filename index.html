@@ -1,7 +1,7 @@
 ---
 title: Les Diabolos Nantes
 summary: "Vivre l'improvisation : Inédite, immersive et inoubliable."
-img: logo.webp
+image: logo.webp
 ---
 
 <div class="ribbon l-box-lrg" id="spectacles">
@@ -14,15 +14,15 @@ img: logo.webp
                 <br>
                 {{date.venue}}
             {% endcapture %}
-            {% if date.img %}
-                {% assign image=date.img %}
+            {% if date.image %}
+                {% assign image=date.image %}
             {% elsif date.spectacle %}
                 {% assign spectacle = site.spectacles | where: 'short', date.spectacle | first %}
-                {% assign image = spectacle.img %}
+                {% assign image = spectacle.image %}
             {% else %}
                 {% assign image = 'logo.webp' %}
             {% endif %}
-            {% include card.html link=date.url img=image title=date.title summary=date.summary info=info%}
+            {% include card.html link=date.url image=image title=date.title summary=date.summary info=info%}
         {% endfor %}
     </div>
 </div>

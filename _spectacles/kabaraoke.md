@@ -1,7 +1,7 @@
 ---
 short: kabaraoke
 title: Kabaraoké
-img: kabaraoke.webp
+image: kabaraoke.webp
 summary: Avec qui allez vous chanter votre morceau préféré
 type: shortform
 audience: Adultes et adolesent.e.s
