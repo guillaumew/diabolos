@@ -2,7 +2,7 @@
 short: mediatheque
 title: La vie secrète des livres
 image: mediatheque.webp
-summary: Un spectacle féérique pour petits et grands.
+summary: Un spectacle féérique pour petits et grands proposé en médiathèques.
 type: shortform
 audience: Petits et grands (à partir de 6 ans)
 ---
