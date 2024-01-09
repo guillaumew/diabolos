@@ -1,0 +1,17 @@
+<ul>
+    {% if include.type %}
+        {% if include.type == 'shortform' %}
+            {% include shortform.html %}
+        {% elsif include.type == 'longform' %}
+            {% include longform.html %}
+        {% else %}
+            <li>Type : {{ include.type }} </li>
+        {% endif %}
+    {% endif %}
+    {% if include.audience %}
+    <li>Public : {{ include.audience }}</li>
+    {% endif %}
+</ul>
+<div>
+    {{ include.content | markdownify }}
+</div>

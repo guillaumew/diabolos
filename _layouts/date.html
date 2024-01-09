@@ -33,26 +33,16 @@ layout: default
 		{% assign spectacle = site.spectacles | where: 'short', page.spectacle | first %}
 		{% if spectacle %}
 		<h3>La formule : {{spectacle.title}}</h3>
-		<ul>
-			{% if spectacle.type %}
-				{% if spectacle.type == 'shortform' %}
-					{% include shortform.html %}
-				{% elsif spectacle.type == 'longform' %}
-					{% include longform.html %}
-				{% else %}
-					<li>Type : {{ spectacle.type }} </li>
-				{% endif %}
-			{% endif %}
-			{% if spectacle.audience %}
-			<li>Public : {{ spectacle.audience }}</li>
-			{% endif %}
-		</ul>
-		{{ spectacle.content | markdownify }}
+		{% include spectacle.html 
+			type=spectacle.type
+			audience=spectacle.audience 
+			content=spectacle.content
+		%} 
 		{% endif %}
 	</div>
 </div>
 {% if page.cta_url %}
-<div class="is-center l-box-lrg">
+<div class="is-center l-box-lrg content">
 	<a href="{{page.cta_url}}" class="pure-button pure-button-secondary">{{page.cta_text}}</a>
 </div>
 {% endif %}

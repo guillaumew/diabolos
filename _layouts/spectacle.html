@@ -1,0 +1,39 @@
+---
+layout: default
+---
+
+<div class="content">
+    <h2>La formule</h2>
+
+        {% include spectacle.html 
+            type=page.type
+            audience=page.audience 
+            content=page.content
+        %} 
+</div>
+<div class="content">
+    <h2>Les prochaines dates</h2>
+    <div class="pure-g">
+        {% assign dates = site.dates | where: 'spectacle', page.short  %}
+        {% if dates and dates.size != 0 %}
+            {% for date in dates %}
+                {% capture info %}
+                    Le {{ date.begin_date | date: "%d/%m/%Y à %H:%M" }}
+                    <br>
+                    {{date.venue}}
+                {% endcapture %}
+                {% if date.image %}
+                    {% assign image=date.image %}
+                {% elsif date.spectacle %}
+                    {% assign spectacle = site.spectacles | where: 'short', date.spectacle | first %}
+                    {% assign image = spectacle.image %}
+                {% else %}
+                    {% assign image = 'logo.webp' %}
+                {% endif %}
+                {% include card.html link=date.url image=image title=date.title summary=date.summary info=info%}
+            {% endfor %}
+        {% else %}
+        Pas de date prévue pour ce spectacle pour le moment...
+        {% endif %}
+    </div>
+</div>

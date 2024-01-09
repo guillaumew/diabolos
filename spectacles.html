@@ -1,0 +1,33 @@
+---
+title: Les spectacles
+summary: "Voici les différentes formules proposées par les Diabolos Nantes."
+image: logo.webp
+layout: default
+---
+
+<div class="ribbon l-box-lrg" id="spectacles">
+    <div class="pure-g">
+        {% for spectacle in site.spectacles %}
+            {% if spectacle.image %}
+                {% assign image=spectacle.image %}
+            {% else %}
+                {% assign image = 'logo.webp' %}
+            {% endif %}
+            {% assign dates = site.dates | where: 'spectacle', spectacle.short %}
+            {% if dates.size == 0 %}
+            {% assign info="Aucune date programmée pour le moment" %}
+            {% elsif dates.size == 1 %}
+            {% assign info="Une date programmée" %}
+            {% else %}
+            {% assign info= dates.size | append: ' dates programmées' %}
+            {% endif %}
+            {% include card.html 
+                link=spectacle.url 
+                image=image 
+                title=spectacle.title 
+                summary=spectacle.summary 
+                info=info 
+            %}
+        {% endfor %}
+    </div>
+</div>

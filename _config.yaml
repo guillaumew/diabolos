@@ -2,7 +2,7 @@ collections:
   dates:
     output: true
   spectacles:
-    output: false
+    output: true
 
 sass:
   style: compressed
@@ -17,7 +17,7 @@ defaults:
       path: ""
       type: "spectacles"
     values:
-      layout: "default"
+      layout: "spectacle"
   - scope:
       path: ""
     values:
