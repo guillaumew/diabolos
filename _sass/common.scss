@@ -286,6 +286,13 @@ a .card{
     margin: auto;
     display: block;
 }
+.pure-form {
+    textarea{
+        height: 100px;
+        width: 100%;
+        overflow: auto;
+    }
+}
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
