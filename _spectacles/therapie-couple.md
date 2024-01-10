@@ -1,9 +1,9 @@
 ---
 short: therapie
-title: Thérapie de couple
+title: Thérapie de couples
 image: therapie.webp
-summary: Où en êtes-vous de votre relation amouteuse ?
-type: shortform
+summary: Où en êtes-vous de votre relation amoureuse ?
+type: longform
 audience: Adultes et adolesent.e.s
 ---
 
