@@ -92,13 +92,16 @@ a.pure-button-primary {
  * I want to customize how my .pure-menu looks at the top of the page
  */
 
+
 .home-menu {
     padding: 0.5em;
-    text-align: center;
-}
-.home-menu {
+    text-align: left;
     background: #DC258F;
 }
+.home-menu ul {
+    float: right;
+}
+
 .pure-menu.pure-menu-fixed {
     /* Fixed menus normally have a border at the bottom. */
     border-bottom: none;
@@ -109,6 +112,11 @@ a.pure-button-primary {
     color: white;
     font-weight: 400;
     font-size: 120%;
+    background-image: url("/assets/img/dn-blanc.svg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 2.3em;
+    width: 2.3em;
 }
 
 .home-menu .pure-menu-selected a {
@@ -116,7 +124,11 @@ a.pure-button-primary {
 }
 
 .home-menu a {
-    color: #6FBEF3;
+    color: white;
+}
+.pure-menu-link:hover, .pure-menu-link:focus {
+    color: white;
+    background-color: #DC258F;
 }
 
 
@@ -212,10 +224,10 @@ a.pure-button-primary {
 .card{
     background: white;
     color: black;
-    margin: 20px;
+    margin: 0;
+    width: 100%;
     position: relative;
     margin-bottom: 50px;
-    width: calc(100% - 40px);
     overflow: auto;
 }
 
@@ -284,20 +296,6 @@ a .card{
         font-size: 16px;
     }
 
-    /* We can align the menu header to the left, but float the
-    menu items to the right. */
-    .home-menu {
-        text-align: left;
-    }
-        .home-menu ul {
-            float: right;
-        }
-
-    /* We increase the height of the splash-container */
-/*    .splash-container {
-        height: 500px;
-    }*/
-
     /* We decrease the width of the .splash, since we have more width
     to work with */
     .splash {
@@ -318,6 +316,11 @@ a .card{
     .contact-box{
         padding: 5em;
         margin:5em;
+    }
+
+    .card {
+        margin: 20px;
+        width: calc(100% - 40px);
     }
 }
 
