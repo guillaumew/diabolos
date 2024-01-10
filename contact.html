@@ -1,0 +1,29 @@
+---
+title: Contacter les Diabolos Nantes
+summary: Nous vous répondrons dans les meilleurs délais
+image: logo.webp
+---
+
+<form 
+    class="form" 
+    action="https://formsubmit.co/diabolos.nantes@gmail.com" 
+    method="POST"
+    >
+    <fieldset>
+        <input type="hidden" name="_next" value="{{site.url}}/message_envoye.html">
+        <input type="hidden" name="_subject" value="Nouveau message sur le formulaire de contact">
+        <input type="hidden" name="_captcha" value="false">
+        <label for="email">
+            Votre email
+            <input id="email" name="email" type="email" placeholder="nom@domaine.com" autocomplete="on" data-required="true" required>
+        </label>
+
+        <label for="message">
+            Votre message
+            <textarea id="message" name="message" placeholder="Bonjour,..." data-required="true" required></textarea>
+        </label>
+        <div class="social">
+            <button type="submit" class="button">Envoyer</button>
+        </div>
+    </fieldset>
+</form>
