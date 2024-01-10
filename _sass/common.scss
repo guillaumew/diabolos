@@ -293,6 +293,10 @@ a .card{
         overflow: auto;
     }
 }
+.column-content{
+    max-width: 800px;
+	margin: auto;
+}
 
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
