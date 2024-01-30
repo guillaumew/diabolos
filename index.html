@@ -7,7 +7,8 @@ image: logo.webp
 <div class="ribbon l-box-lrg" id="spectacles">
     <h2 class="content-head content-head-ribbon">Nos prochains spectacles</h2>
     <div class="pure-g">
-        {% assign sorted_dates = site.dates | sort: 'begin_date' %}
+        {% assign today = site.time | date: '%Y-%m-%d' %}
+        {% assign sorted_dates = site.dates | where_exp: "date", "date.begin_date > today"  | sort: 'begin_date' %}
         {% for date in sorted_dates limit:4 %}
             {% capture info %}
                 Le {{ date.begin_date | date: "%d/%m/%Y à %H:%M" }}

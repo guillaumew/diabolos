@@ -1,13 +1,13 @@
 ---
-title: Les dates à venir 
-summary: Tous les prochains spectacles des Diabolos Nantes
+title: Les dates passées
+summary: Tous les spectacles joués par les Diabolos Nantes en 2024
 image: logo.webp
 ---
 
 <div class="ribbon l-box-lrg" id="spectacles">
     <div class="pure-g">
         {% assign today = site.time | date: '%Y-%m-%d' %}
-        {% assign sorted_dates = site.dates | where_exp: "date", "date.begin_date > today"  | sort: 'begin_date' %}
+        {% assign sorted_dates = site.dates | where_exp: "date", "date.begin_date < today"  | sort: 'begin_date'| reverse %}
         {% for date in sorted_dates %}
             {% capture info %}
                 Le {{ date.begin_date | date: "%d/%m/%Y à %H:%M" }}
@@ -26,6 +26,6 @@ image: logo.webp
         {% endfor %}
     </div>
     <div class="is-center">
-        <a href="/dates-passees.html" class="pure-button">Voir les spectacles passés</a>
+        <a href="/dates.html" class="pure-button">Voir les spectacles à venir</a>
     </div>
 </div>

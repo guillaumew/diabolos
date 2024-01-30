@@ -11,4 +11,4 @@ cta_url: https://www.vostickets.fr/Billet/FR/representation-FABRIQUE_IMPROS-2543
 spectacle: jt
 ---
 
-Plus d'informations à venir
+On se retrouve à la Fabrique pour un Journal TV pas comme les autres.
