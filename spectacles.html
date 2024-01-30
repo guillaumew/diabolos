@@ -13,7 +13,8 @@ layout: default
             {% else %}
                 {% assign image = 'logo.webp' %}
             {% endif %}
-            {% assign dates = site.dates | where: 'spectacle', spectacle.short %}
+            {% assign today = site.time | date: '%Y-%m-%d' %}
+            {% assign dates = site.dates | where: 'spectacle', spectacle.short | where_exp: "date", "date.begin_date > today" %}
             {% if dates.size == 0 %}
             {% assign info="Aucune date programmée pour le moment" %}
             {% elsif dates.size == 1 %}
