@@ -189,7 +189,6 @@ a.pure-button-primary {
     width: 100%;
     min-height: 12%;
     margin-bottom: 100px;
-    box-shadow: 0px 15px 10px -15px #111;
     background-color: white;
 }
 
@@ -271,13 +270,14 @@ a .card{
 
 /* This is the class used for the footer */
 .footer {
-    background: #dddddd;
+    background: black;
     padding-top: 100px;
     left: 0;
     right:0;
     bottom: 0;
     position: fixed;
     z-index: -1;
+    color: white;
 }
 
 .date_info{
@@ -298,6 +298,17 @@ a .card{
 .column-content{
     max-width: 800px;
 	margin: auto;
+}
+
+.social-icon {
+    text-decoration: none;
+    font-size: 60px;
+    margin: 0 10px;
+    padding: 10px 10px 0 10px;
+    &:hover {
+        background: rgba(#ffffff,.5);
+        border-radius: 20px;
+    }
 }
 
 /*
