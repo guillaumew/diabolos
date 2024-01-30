@@ -1,6 +1,6 @@
 ---
 title: "Politiquement incorrect"
-begin_date: 2024-02-062 20:00
+begin_date: 2024-02-02 20:00
 duration: 60 min
 summary: Et si pour une fois, les gens disaient vraiment ce qu'ils pensent ?
 venue: Le OAK
