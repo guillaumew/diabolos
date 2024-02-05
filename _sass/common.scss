@@ -10,8 +10,9 @@
  */
 body {
     line-height: 1.7em;
-    color: #474f50;
+    color: white;
     font-size: 13px;
+    background-color: black;
 }
 
 h4{
@@ -189,13 +190,14 @@ a.pure-button-primary {
     width: 100%;
     min-height: 12%;
     margin-bottom: 100px;
-    background-color: white;
+    background-color: black;
+    box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.5); 
 }
 
 /* We want to give the content area some more padding */
 .content {
     padding: 1em 1em 3em;
-    background-color: white;
+    background-color: black;
 }
 
 /* This is the class used for the main content headers (<h2>) */
@@ -270,7 +272,7 @@ a .card{
 
 /* This is the class used for the footer */
 .footer {
-    background: black;
+    background: #252525;
     padding-top: 100px;
     left: 0;
     right:0;

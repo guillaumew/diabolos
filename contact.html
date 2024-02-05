@@ -1,7 +1,7 @@
 ---
 title: Contacter les Diabolos Nantes
 summary: Nous vous répondrons dans les meilleurs délais
-image: logo.webp
+image: email.svg
 ---
 
 <div class="content column-content">
@@ -14,6 +14,7 @@ image: logo.webp
             <input type="hidden" name="_next" value="{{site.url}}/message_envoye.html">
             <input type="hidden" name="_subject" value="Nouveau message sur le formulaire de contact">
             <input type="hidden" name="_captcha" value="false">
+            <input type="text" name="_honey" style="display:none">
             <label for="email">
                 Votre email
                 <input id="email" name="email" type="email" placeholder="nom@domaine.com" autocomplete="on" data-required="true" required>
