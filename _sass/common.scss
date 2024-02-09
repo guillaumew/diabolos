@@ -261,9 +261,14 @@ a .card{
 }
 
 .content-contact{
-    background-image: url('../../assets/img/dn-catch.webp');
+    background-image: url('../../assets/img/dn-portrait.webp');
     background-size: cover;
     background-position: center;
+}
+@media only screen and (min-width: 500px) {
+    .content-contact { 
+        background-image: url('/assets/img/dn-paysage.webp');
+   }
 }
 .contact-box{
     background: rgba(0,0,0,0.75);
