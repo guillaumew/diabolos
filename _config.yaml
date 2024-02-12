@@ -13,6 +13,7 @@ defaults:
       type: "dates"
     values:
       layout: "date"
+      permalink: /dates/:title:output_ext
   - scope:
       path: ""
       type: "spectacles"
