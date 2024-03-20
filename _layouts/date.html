@@ -30,14 +30,16 @@ layout: default
 		<h2>Le spectacle</h2>
 		<h3>Description</h3>
 		{{content}}
-		{% assign spectacle = site.spectacles | where: 'short', page.spectacle | first %}
-		{% if spectacle %}
-		<h3>La formule : {{spectacle.title}}</h3>
-		{% include spectacle.html 
-			type=spectacle.type
-			audience=spectacle.audience 
-			content=spectacle.content
-		%} 
+		{% if page.spectacle %}
+			{% assign spectacle = site.spectacles | where: 'short', page.spectacle | first %}
+			{% if spectacle %}
+			<h3>La formule : {{spectacle.title}}</h3>
+			{% include spectacle.html 
+				type=spectacle.type
+				audience=spectacle.audience 
+				content=spectacle.content
+			%} 
+			{% endif %}
 		{% endif %}
 	</div>
 </div>
