@@ -5,6 +5,7 @@ image: jt.webp
 summary: Un journal télévisé, ça ne s'improvise pas ! Quoique...
 type: shortform
 audience: Adultes et adolesent.e.s
+order: 3
 ---
 
 "Madame, Monsieur, bonsoir" : une phrase que l’on a l’habitude d’entendre tous les soirs, à la même heure, à la seconde près… Oui, mais voilà :  il y a toujours les « aléas du direct ».

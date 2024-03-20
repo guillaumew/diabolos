@@ -5,6 +5,7 @@ image: cnic.webp
 summary: Une formule officielle qui met en avant toute l'énergie des Diabolos Nantes.
 type: shortform
 audience: Adultes et adolesent.e.s
+order: 5
 ---
 
 Chaque dimanche, pour votre plus grand plaisir, la Fabrique à Impro organise des rencontres durant lesquelles des duos de personnages s’affronteront sur scène sous le regard aiguisé d’un arbitre intransigeant. Ce dernier leur imposera contraintes et thèmes, toujours avec votre complicité !

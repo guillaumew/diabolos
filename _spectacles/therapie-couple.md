@@ -5,6 +5,7 @@ image: therapie.webp
 summary: Où en êtes-vous de votre relation amoureuse ?
 type: longform
 audience: Adultes et adolesent.e.s
+order: 3
 ---
 
 Relation amoureuse (n.f.) : lien entre deux sujets fondé sur l’existence d’un sentiment amoureux partagé.

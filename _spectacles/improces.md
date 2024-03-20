@@ -5,6 +5,7 @@ image: improces.webp
 summary: C'est vous qui donnez la sentence
 type: longform
 audience: Adultes et adolesent.e.s
+order: 3
 ---
 
 Hier soir, il y a eu un assassinat. L'enquête de la police a révélé que seules trois personnes peuvent avoir fait le coup. Conformément aux lois des Diabolos Nantes, on décidera du coupable lors d'un procès dont vous serez les jurés.

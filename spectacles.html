@@ -7,7 +7,8 @@ layout: default
 
 <div class="ribbon l-box-lrg" id="spectacles">
     <div class="pure-g">
-        {% for spectacle in site.spectacles %}
+        {% assign spectacles = site.spectacles | sort: 'order' %}
+        {% for spectacle in spectacles %}
             {% if spectacle.image %}
                 {% assign image=spectacle.image %}
             {% else %}

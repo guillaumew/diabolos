@@ -5,6 +5,7 @@ image: putaclic.webp
 summary: ou le monde merveileux d'internet
 type: shortform
 audience: Adultes et adolesent.e.s
+order: 3
 ---
 
 Réseaux sociaux, GIF, hashtags, memes, titres racoleurs…
