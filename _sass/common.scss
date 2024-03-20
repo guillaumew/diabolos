@@ -216,7 +216,7 @@ a.pure-button-primary {
 
 /* This is the class used for the content sub-headers (<h3>) */
 .content-subhead {
-    color: #1f8dd6;
+    color: #DC258F;
 }
     .content-subhead i {
         margin-right: 7px;
@@ -279,14 +279,17 @@ a .card{
 
 /* This is the class used for the footer */
 .footer {
-    background: #252525;
+    background: #181818;
     padding-top: 100px;
     left: 0;
     right:0;
     bottom: 0;
     position: fixed;
     z-index: -1;
-    color: white;
+    color: #777777;
+    a {
+        color: #999999;
+    }
 }
 
 .date_info{
