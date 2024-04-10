@@ -11,6 +11,22 @@ layout: default
             content=page.content
         %} 
 </div>
+{% if page.photos %}
+<div class="content">
+    <h2>Les photos</h2>
+    <div class="is-center">
+    {% for image in site.static_files %}
+        {% assign images_dir = "img/" | append: page.photos | append: "/thumb" %}
+        {% if image.path contains images_dir %}
+            {% assign img_url = image.path | replace: "/thumb/" , "/" %}
+            <a href="{{img_url}}" target="_new" class="photo_spectacle">
+                <img src="{{ image.path }}" alt="Photo du spectacle {{page.title}}" />
+            </a>
+        {% endif %}
+    {% endfor %}
+    </div>
+</div>
+{% endif %}
 <div class="content">
     <h2>Les prochaines dates</h2>
     <div class="pure-g">

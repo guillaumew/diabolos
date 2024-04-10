@@ -6,6 +6,7 @@ summary: Une formule officielle qui met en avant toute l'énergie des Diabolos N
 type: shortform
 audience: Adultes et adolesent.e.s
 order: 1
+photos: catch
 ---
 
 Le Catch impro est un concept de spectacle d'improvisation théâtrale. 

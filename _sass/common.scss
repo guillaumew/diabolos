@@ -333,7 +333,10 @@ a .card{
     }
 }
 
-
+.photo_spectacle {
+    display: inline-block;
+    margin: 1em;
+}
 /*
  * -- TABLET (AND UP) MEDIA QUERIES --
  * On tablets and other medium-sized devices, we want to customize some
