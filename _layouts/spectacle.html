@@ -54,3 +54,16 @@ layout: default
         {% endif %}
     </div>
 </div>
+<div class="content">
+    <h2>Les représentations passées</h2>
+    {% assign prev_dates = site.dates | where: 'spectacle', page.short | where_exp: "date", "date.begin_date < today"  | sort: 'begin_date' %}
+    {% if prev_dates and prev_dates.size != 0 %}
+        <ul>
+            {% for pdate in prev_dates %}
+            <li><a href="{{ pdate.url }}">{{pdate.title}}</a> ({{ pdate.begin_date | date: "%d/%m/%Y" }})</li>
+            {% endfor %}
+        </ul>
+    {% else %}
+        <p>Ce spectacle n'a pas eu de date publique depuis janvier 2024...</p>
+    {% endif %}
+</div>

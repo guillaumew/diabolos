@@ -33,7 +33,7 @@ layout: default
 		{% if page.spectacle %}
 			{% assign spectacle = site.spectacles | where: 'short', page.spectacle | first %}
 			{% if spectacle %}
-			<h3>La formule : {{spectacle.title}}</h3>
+			<h3>La formule : <a href="{{spectacle.url}}">{{spectacle.title}}</a></h3>
 			{% include spectacle.html 
 				type=spectacle.type
 				audience=spectacle.audience 
