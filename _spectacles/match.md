@@ -2,7 +2,7 @@
 short: match
 title: Match d'improvisation théâtrale
 summary: La formule d'improvisation théâtrale la plus connue et répandue
-image: match.webp
+image: match.jpg
 type: shortform
 audience: Adultes et adolesent.e.s
 order: 1

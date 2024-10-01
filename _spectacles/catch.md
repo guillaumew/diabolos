@@ -1,7 +1,7 @@
 ---
 short: catch
 title: Catch
-image: catch.webp
+image: catch.jpg
 summary: Une formule officielle qui met en avant toute l'énergie des Diabolos Nantes.
 type: shortform
 audience: Adultes et adolesent.e.s
